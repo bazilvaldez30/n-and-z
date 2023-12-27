@@ -2,7 +2,7 @@ import axios from 'axios'
 import Cookies from 'js-cookie'
 import { useRouter } from 'next/navigation'
 
-const backend_url = 'https:/api-longga-weznbalgna-as.a.run.app/'
+const backend_url = 'http://192.168.0.100/'
 
 const api = axios.create({ baseURL: backend_url })
 
